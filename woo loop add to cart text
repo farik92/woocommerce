@@ -1,0 +1,5 @@
+add_filter( 'woocommerce_product_add_to_cart_text', 'sadiya_archive_custom_cart_button_text' );
+ 
+function sadiya_archive_custom_cart_button_text() {
+      return __( 'В КОРЗИНУ', 'woocommerce' );
+}
